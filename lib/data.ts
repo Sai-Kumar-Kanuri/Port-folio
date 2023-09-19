@@ -70,14 +70,14 @@ export const projectsData = [
         title: "NoteZipper",
         description:
             "NoteZipper is a web application that allows users to create, organize, and manage their digital notes in a seamless and efficient manner.",
-        tags: ["React", "JavaScript", "Express","Nodejs", "MongoDB", "Tailwind", "Redux"],
+        tags: ["React", "JavaScript", "Express", "Nodejs", "MongoDB", "Tailwind", "Redux"],
         imageUrl: notezipper,
     },
     {
         title: "Flight Booking Portal",
         description:
             "eveloped a flight management system which has both admin and user roles using MERN stack.Usage of JSON Web Tokens for authentication in all the routes.",
-        tags: ["React", "MongoDB", "Express", "NodeJS","JavaScript"],
+        tags: ["React", "MongoDB", "Express", "NodeJS", "JavaScript"],
         imageUrl: flightbooking,
     },
     {
@@ -91,29 +91,29 @@ export const projectsData = [
         title: "IMDB Rating Prediction",
         description:
             "An end-to-end toolkit on building a movie review sentiment classification LSTM model in Keras Deep Learning",
-        tags: ["Sentiment", "NLP", "Python", "Keras", "Numpy","Flask"],
+        tags: ["Sentiment", "NLP", "Python", "Keras", "Numpy", "Flask"],
         imageUrl: sentiment,
     }
 ] as const;
 
 export const skillsData = [
+    "C++",
+    "Data Structures",
+    "C-Programming",
     "HTML",
     "CSS",
     "JavaScript",
-    "TypeScript",
-    "React",
-    "Next.js",
     "Node.js",
-    "Git",
-    "Tailwind",
-    "Prisma",
+    "Express.js",
+    "Mongoose",
     "MongoDB",
+    "React",
+    "Git",
+    "MySQL",
     "Redux",
-    "GraphQL",
-    "Apollo",
-    "Express",
-    "PostgreSQL",
-    "Python",
-    "Django",
-    "Framer Motion",
+    "Tailwind",
+    "TypeScript",
+    "Next.js",
+    "Prisma",
+    "Python"
 ] as const;
