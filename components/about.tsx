@@ -21,7 +21,7 @@ const About = () => {
 
             <SectionHeading>About Me</SectionHeading>
             <p className="mb-3">
-                I am currently pursuing my B-Tech in{" "}
+                I am currently pursuing my B.Tech in{" "}
                 <span className="font-medium">Computer Science and Engineering</span>. I have a great
                 passion for programming and{" "}
                 <span className="font-medium">full-stack web development</span>.{" "}
@@ -32,7 +32,7 @@ const About = () => {
                 <span className="font-medium">
                     React, Next.js, Node.js, and MongoDB
                 </span>
-                . I am also familiar with{" "}<span className="font-medium">C++, C and Python</span>.  I am always looking to
+                . I am also familiar with{" "}<span className="font-medium">C++, C and Python</span>.I am always looking to
                 learn new technologies. I am currently looking for a{" "}
                 <span className="font-medium">full-time position</span> as a software
                 developer.
@@ -42,7 +42,7 @@ const About = () => {
                 I've solved over{" "} <span className="font-medium">400 problems in Leetcode</span>.
                 {""}<span className="italic">When I'm not coding</span>, I enjoy playing
                 video games, watching movies. I also enjoy{" "}
-                <span className="font-medium">learning new things</span>. I'm also
+                <span className="font-medium">learning new things</span> and am currently
                 learning how to play the guitar.
             </p>
         </motion.section >
