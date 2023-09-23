@@ -70,7 +70,7 @@ export const experiencesData = [
         location: "Chennai,India",
         description:
             "Pursuing B-tech in CSE at SRM Institute of Science and Technology,Kattankulathur",
-        icon: React.createElement(LuGraduationCap), 
+        icon: React.createElement(LuGraduationCap),
         date: "2020 - Present",
     },
     // {
@@ -90,6 +90,7 @@ export const projectsData = [
             "NoteZipper is a web application that allows users to create, organize, and manage their digital notes in a seamless and efficient manner.",
         tags: ["React", "JavaScript", "Express", "Nodejs", "MongoDB", "Tailwind", "Redux"],
         imageUrl: notezipper,
+        href: `https://github.com/Sai-Kumar-Kanuri/NoteZipper`
     },
     {
         title: "Flight Booking Portal",
@@ -97,6 +98,7 @@ export const projectsData = [
             "eveloped a flight management system which has both admin and user roles using MERN stack.Usage of JSON Web Tokens for authentication in all the routes.",
         tags: ["React", "MongoDB", "Express", "NodeJS", "JavaScript"],
         imageUrl: flightbooking,
+        href: `https://github.com/Sai-Kumar-Kanuri/FlightBooking`
     },
     {
         title: "Aid For Life",
@@ -104,6 +106,7 @@ export const projectsData = [
             "Developed a live tracking software similar to Uber or Ola where a person can quickly book an ambulance by providing the specifics of their emergency.",
         tags: ["Flutter", "HTML", "MongoDB", "CSS", "JavaScript"],
         imageUrl: aidforlife,
+        href: `https://github.com/Sai-Kumar-Kanuri/dsc_hacks_technyts`
     },
     {
         title: "IMDB Rating Prediction",
@@ -111,6 +114,7 @@ export const projectsData = [
             "An end-to-end toolkit on building a movie review sentiment classification LSTM model in Keras Deep Learning",
         tags: ["Sentiment", "NLP", "Python", "Keras", "Numpy", "Flask"],
         imageUrl: sentiment,
+        href: `https://github.com/Sai-Kumar-Kanuri/Sentiment-Analysis`
     }
 ] as const;
 
