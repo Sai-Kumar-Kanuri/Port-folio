@@ -26,24 +26,26 @@ const About = () => {
                 passion for programming and{" "}
                 <span className="font-medium">full-stack web development</span>.{" "}
                 <span className="italic">My favorite part of programming</span> is the
-                problem-solving aspect. I love the
-                feeling of finally figuring out a solution to a problem. My core stack
-                is{" "}
+                problem-solving aspect and the
+                satisfaction of reaching its solution. My core stack
+                includes{" "}
                 <span className="font-medium">
                     React, Next.js, Node.js, and MongoDB
                 </span>
-                . I am also familiar with{" "}<span className="font-medium">C++, C and Python</span>.I am always looking to
-                learn new technologies. I am currently looking for a{" "}
-                <span className="font-medium">full-time position</span> as a software
-                developer.
+                . I am also familiar with{" "}<span className="font-medium">C++, C and Python</span>.  I always look forward to
+                learn new technologies and I am currently looking for a{" "}
+                <span className="font-medium">full-time position</span> as a Software
+                Developer.
             </p>
 
             <p>
                 I've solved over{" "} <span className="font-medium">400 problems in Leetcode</span>.
-                {""}<span className="italic">When I'm not coding</span>, I enjoy playing
-                video games, watching movies. I also enjoy{" "}
+                {/* {""}<span className="italic">When I'm not coding</span>, I enjoy playing */}
+                My activities of interest include playing
+                video games and watching movies, and I'am currently learning to play the guitar.
+                {/* . I also enjoy{" "}
                 <span className="font-medium">learning new things</span> and am currently
-                learning how to play the guitar.
+                learning how to play the guitar. */}
             </p>
         </motion.section >
     )

@@ -45,7 +45,7 @@ export const experiencesData = [
         title: "Ascent Junior College",
         location: "Visakhapatnam,India ",
         description:
-            "Completed my 12th Standard",
+            "12th Grade",
         icon: React.createElement(LuGraduationCap),
         date: "2019",
     },

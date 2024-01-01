@@ -10,7 +10,7 @@ import { useSectionInView } from "@/lib/hooks";
 
 const Experience = () => {
     
-    const { ref } = useSectionInView("Experience");
+    const { ref } = useSectionInView("Experience",0.50);
     // const { theme } = useTheme();
 
     return (
