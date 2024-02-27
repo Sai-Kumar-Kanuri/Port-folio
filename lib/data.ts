@@ -12,6 +12,8 @@ import aidforlife from "@/public/aidforlife.png"
 import notezipper from "@/public/notezipper.png"
 import flightbooking from "@/public/flightbooking.png"
 import sentiment from "@/public/sentiment.gif"
+import snapchat from "@/public/snapchat.png"
+import twitter from "@/public/twitter.png"
 
 export const links = [
     {
@@ -85,6 +87,23 @@ export const experiencesData = [
 
 export const projectsData = [
     {
+        title: "Snapchat Clone",
+        description:
+            "Real-time messaging app built with Next.js, TypeScript, MongoDB, Tailwind CSS and Cloudinary integration for optimized image storage.",
+        tags: ["Nextjs", "TypeScript", "TailwindCSS", "Shadcn", "MongoDB", "Cloudinary"],
+        imageUrl: snapchat,
+        href: `https://github.com/Sai-Kumar-Kanuri/Snapchat-Clone`
+    },
+    {
+        title: "Twitter Clone",
+        description:
+            `Successfully implemented core backend features  Follow, Unfollow, Create Tweet, Delete
+            Tweet, and Timeline functionalities.`,
+        tags: ["React", "JavaScript", "Express", "Nodejs", "MongoDB", "Tailwind", "Redux"],
+        imageUrl: twitter,
+        href: `https://github.com/Sai-Kumar-Kanuri/Twitter-Clone-Frontend`
+    },
+    {
         title: "NoteZipper",
         description:
             "NoteZipper is a web application that allows users to create, organize, and manage their digital notes in a seamless and efficient manner.",
@@ -122,20 +141,20 @@ export const skillsData = [
     "C++",
     "Data Structures",
     "C-Programming",
-    "HTML",
-    "CSS",
     "JavaScript",
+    "React",
+    "Next.js",
     "Node.js",
+    "TailwindCSS",
     "Express.js",
     "Mongoose",
     "MongoDB",
-    "React",
+    "Redux",
+    "TypeScript",
+    "HTML",
+    "CSS",
     "Git",
     "MySQL",
-    "Redux",
-    "Tailwind",
-    "TypeScript",
-    "Next.js",
     "Prisma",
     "Python"
 ] as const; 
