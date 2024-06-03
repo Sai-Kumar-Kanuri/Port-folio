@@ -14,6 +14,7 @@ import flightbooking from "@/public/flightbooking.png"
 import sentiment from "@/public/sentiment.gif"
 import snapchat from "@/public/snapchat.png"
 import twitter from "@/public/twitter.png"
+import zoom from "@/public/zoom.png"
 
 export const links = [
     {
@@ -43,14 +44,14 @@ export const links = [
 ] as const;
 
 export const experiencesData = [
-    {
-        title: "Ascent Junior College",
-        location: "Visakhapatnam,India ",
-        description:
-            "12th Grade",
-        icon: React.createElement(LuGraduationCap),
-        date: "2019",
-    },
+    // {
+    //     title: "Ascent Junior College",
+    //     location: "Visakhapatnam,India ",
+    //     description:
+    //         "12th Grade",
+    //     icon: React.createElement(LuGraduationCap),
+    //     date: "2019",
+    // },
     {
         title: "Data Science Hack",
         location: "Chennai, India",
@@ -59,21 +60,30 @@ export const experiencesData = [
         icon: React.createElement(BsTrophy),
         date: "Sep-2022",
     },
+    // {
+    //     title: "Temenos Adopt IT Scholarship",
+    //     location: "Chennai, India",
+    //     description:
+    //         "Was awarded Temenos Adopt IT Scholarship for academic excellence",
+    //     icon: React.createElement(LiaAwardSolid),
+    //     date: "Feb-2023",
+    // },
     {
-        title: "Temenos Adopt IT Scholarship",
-        location: "Chennai, India",
-        description:
-            "Was awarded Temenos Adopt IT Scholarship for academic excellence",
-        icon: React.createElement(LiaAwardSolid),
-        date: "Feb-2023",
-    },
-    {
-        title: "Computer Science and Engineering",
+        title: `Hinweis Second International Conference on Advanced Research in Engineering and
+        Technology (ARET)`,
         location: "Chennai,India",
         description:
-            "Pursuing B-tech in CSE at SRM Institute of Science and Technology,Kattankulathur",
+            "Presented a project at the Hinweis Second International Conference on Advanced Research in Engineering and Technology (ARET) featuring an algorithm for cloud detection and motion prediction in INSAT satellite images. ",
         icon: React.createElement(LuGraduationCap),
-        date: "2020 - Present",
+        date: "Feb 2024",
+    },
+    {
+        title: "Computer Science and Engineering Engineering Engineering",
+        location: "Chennai,India",
+        description:
+            "Graduated with a B-Tech in Computer Science and Engineering from SRM Institute of Science and Technology, Kattankulathur",
+        icon: React.createElement(LuGraduationCap),
+        date: "June 2024",
     },
     // {
     //     title: "Full-Stack Developer",
@@ -86,6 +96,14 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+    {
+        title: "Zoom-Video-Conferencing-App",
+        description:
+            "Developed a Zoom-like video conferencing app using Next.js, TypeScript, Tailwind CSS, Shadcn, Clerk, and GetStream.",
+        tags: ["Nextjs", "TypeScript", "Clerk", "GetStream", "ShadCn", "Tailwind"],
+        imageUrl: zoom,
+        href: `https://github.com/Sai-Kumar-Kanuri/Zoom-Video-Conferencing-App`
+    },
     {
         title: "Snapchat Clone",
         description:
@@ -104,20 +122,20 @@ export const projectsData = [
         href: `https://github.com/Sai-Kumar-Kanuri/Twitter-Clone-Frontend`
     },
     {
-        title: "NoteZipper",
-        description:
-            "NoteZipper is a web application that allows users to create, organize, and manage their digital notes in a seamless and efficient manner.",
-        tags: ["React", "JavaScript", "Express", "Nodejs", "MongoDB", "Tailwind", "Redux"],
-        imageUrl: notezipper,
-        href: `https://github.com/Sai-Kumar-Kanuri/NoteZipper`
-    },
-    {
         title: "Flight Booking Portal",
         description:
             "eveloped a flight management system which has both admin and user roles using MERN stack.Usage of JSON Web Tokens for authentication in all the routes.",
         tags: ["React", "MongoDB", "Express", "NodeJS", "JavaScript"],
         imageUrl: flightbooking,
         href: `https://github.com/Sai-Kumar-Kanuri/FlightBooking`
+    },
+    {
+        title: "NoteZipper",
+        description:
+            "NoteZipper is a web application that allows users to create, organize, and manage their digital notes in a seamless and efficient manner.",
+        tags: ["React", "JavaScript", "Express", "Nodejs", "MongoDB", "Tailwind", "Redux"],
+        imageUrl: notezipper,
+        href: `https://github.com/Sai-Kumar-Kanuri/NoteZipper`
     },
     {
         title: "Aid For Life",
@@ -142,6 +160,7 @@ export const skillsData = [
     "Data Structures",
     "C-Programming",
     "JavaScript",
+    "Java",
     "React",
     "Next.js",
     "Node.js",
