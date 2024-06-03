@@ -78,7 +78,7 @@ export const experiencesData = [
         date: "Feb 2024",
     },
     {
-        title: "Computer Science and Engineering Engineering Engineering",
+        title: "Computer Science and Engineering Engineering",
         location: "Chennai,India",
         description:
             "Graduated with a B-Tech in Computer Science and Engineering from SRM Institute of Science and Technology, Kattankulathur",
