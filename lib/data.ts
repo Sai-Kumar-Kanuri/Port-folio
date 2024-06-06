@@ -15,6 +15,7 @@ import sentiment from "@/public/sentiment.gif"
 import snapchat from "@/public/snapchat.png"
 import twitter from "@/public/twitter.png"
 import zoom from "@/public/zoom.png"
+import cloud from "@/public/cloud.png"
 
 export const links = [
     {
@@ -105,15 +106,15 @@ export const projectsData = [
         href: `https://github.com/Sai-Kumar-Kanuri/Zoom-Video-Conferencing-App`
     },
     {
-        title: "Snapchat Clone",
+        title: "Snapchat For Devs",
         description:
             "Real-time messaging app built with Next.js, TypeScript, MongoDB, Tailwind CSS and Cloudinary integration for optimized image storage.",
-        tags: ["Nextjs", "TypeScript", "TailwindCSS", "Shadcn", "MongoDB", "Cloudinary"],
+        tags: ["Nextjs", "TypeScript", "Tailwind", "Shadcn", "MongoDB", "Cloudinary"],
         imageUrl: snapchat,
         href: `https://github.com/Sai-Kumar-Kanuri/Snapchat-Clone`
     },
     {
-        title: "Twitter Clone",
+        title: "Twitter",
         description:
             `Successfully implemented core backend features  Follow, Unfollow, Create Tweet, Delete
             Tweet, and Timeline functionalities.`,
@@ -124,10 +125,18 @@ export const projectsData = [
     {
         title: "Flight Booking Portal",
         description:
-            "eveloped a flight management system which has both admin and user roles using MERN stack.Usage of JSON Web Tokens for authentication in all the routes.",
+            "Developed a flight management system which has both admin and user roles using MERN stack.Usage of JSON Web Tokens for authentication in all the routes.",
         tags: ["React", "MongoDB", "Express", "NodeJS", "JavaScript"],
         imageUrl: flightbooking,
         href: `https://github.com/Sai-Kumar-Kanuri/FlightBooking`
+    },
+    {
+        title: "Cloud Detection and Nowcasting",
+        description:
+            "This project presents an algorithm for cloud detection in INSAT satellite images, followed by cloud motion prediction in subsequent frames.",
+        tags: ["MaskRCNN", "K-Means", "LSTM", "MPA", "Nowcasting", "Detection"],
+        imageUrl: cloud,
+        href: `https://github.com/Sai-Kumar-Kanuri/Cloud-Detection-and-Nowcasting-for-Ship-Navigation`
     },
     {
         title: "NoteZipper",
