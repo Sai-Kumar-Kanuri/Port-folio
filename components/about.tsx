@@ -21,8 +21,8 @@ const About = () => {
 
             <SectionHeading>About Me</SectionHeading>
             <p className="mb-3">
-                I am currently pursuing my B.Tech in{" "}
-                <span className="font-medium">Computer Science and Engineering</span>. I have a great
+                I completed my B.Tech in{" "}
+                <span className="font-medium">Computer Science and Engineering in May 2024</span>. I have a great
                 passion for programming and{" "}
                 <span className="font-medium">full-stack web development</span>.{" "}
                 <span className="italic">My favorite part of programming</span> is the

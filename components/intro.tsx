@@ -25,7 +25,7 @@ const Intro = () => {
                             duration: 0.2,
                         }}>
                         <Image
-                            src="/profile.png"
+                            src="/profile1.jpg"
                             alt="Sai Kumar Kanuri"
                             width="192"
                             height="192"
@@ -57,10 +57,11 @@ const Intro = () => {
                 animate={{ opacity: 1, y: 0 }}
             >
                 <span className="font-bold">Hello, I'm Sai Kumar Kanuri,</span> I'm a{" "}
-                <span className="font-bold">full-stack developer</span> pursuing my B.Tech in{" "}
+                <span className="font-bold">full-stack developer</span> with a B.Tech in{" "}
                 <span className="font-bold">Computer Science and Engineering.</span> I enjoy
-                building <span className="italic">websites</span>. My focus is{" "}
-                <span className="underline">React and Nodejs</span>.
+                building <span className="italic">websites</span>. 
+                with a focus on the{" "}<span className="underline">MERN stack and Nextjs</span>.
+                <span>I am also excited to begin my professional journey as a <span className="font-bold">System Engineer </span>at TCS.</span>
             </motion.h1>
 
             <motion.div className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium "
