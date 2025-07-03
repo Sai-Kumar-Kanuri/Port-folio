@@ -53,14 +53,14 @@ export const experiencesData = [
     //     icon: React.createElement(LuGraduationCap),
     //     date: "2019",
     // },
-    {
-        title: "Data Science Hack",
-        location: "Chennai, India",
-        description:
-            "Won 2nd Position at Data Science Hack'22",
-        icon: React.createElement(BsTrophy),
-        date: "Sep-2022",
-    },
+    // {
+    //     title: "Data Science Hack",
+    //     location: "Chennai, India",
+    //     description:
+    //         "Won 2nd Position at Data Science Hack'22",
+    //     icon: React.createElement(BsTrophy),
+    //     date: "Sep-2022",
+    // },
     // {
     //     title: "Temenos Adopt IT Scholarship",
     //     location: "Chennai, India",
@@ -69,15 +69,15 @@ export const experiencesData = [
     //     icon: React.createElement(LiaAwardSolid),
     //     date: "Feb-2023",
     // },
-    {
-        title: `Hinweis Second International Conference on Advanced Research in Engineering and
-        Technology (ARET)`,
-        location: "Chennai,India",
-        description:
-            "Presented a project at the Hinweis Second International Conference on Advanced Research in Engineering and Technology (ARET) featuring an algorithm for cloud detection and motion prediction in INSAT satellite images. ",
-        icon: React.createElement(LuGraduationCap),
-        date: "Feb 2024",
-    },
+    // {
+    //     title: `Hinweis Second International Conference on Advanced Research in Engineering and
+    //     Technology (ARET)`,
+    //     location: "Chennai,India",
+    //     description:
+    //         "Presented a project at the Hinweis Second International Conference on Advanced Research in Engineering and Technology (ARET) featuring an algorithm for cloud detection and motion prediction in INSAT satellite images. ",
+    //     icon: React.createElement(LuGraduationCap),
+    //     date: "Feb 2024",
+    // },
     {
         title: "Computer Science and Engineering Engineering",
         location: "Chennai,India",
@@ -86,14 +86,14 @@ export const experiencesData = [
         icon: React.createElement(LuGraduationCap),
         date: "June 2024",
     },
-    // {
-    //     title: "Full-Stack Developer",
-    //     location: "Houston, TX",
-    //     description:
-    //         "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    //     icon: React.createElement(FaReact),
-    //     date: "2021 - present",
-    // }
+    {
+        title: "Full Stack Developer",
+        location: "Bangalore, KA",
+        description:
+            "Developer at Tata Consultancy Services",
+        icon: React.createElement(FaReact),
+        date: "Jan 2025 - Present",
+    }
 ] as const;
 
 export const projectsData = [

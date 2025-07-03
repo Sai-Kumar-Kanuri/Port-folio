@@ -61,7 +61,7 @@ const Intro = () => {
                 <span className="font-bold">Computer Science and Engineering.</span> I enjoy
                 building <span className="italic">websites</span>. 
                 with a focus on the{" "}<span className="underline">MERN stack and Nextjs</span>.
-                <span>I am also excited to begin my professional journey as a <span className="font-bold">Systems Engineer </span>at TATA Cosultancy Services.</span>
+                {" "}<span>I'm currently working as a <span className="font-bold">Systems Engineer </span> at Tata Consultancy Services, where I work with Spring MVC, jQuery, JavaScript, and Oracle SQL.</span>
             </motion.h1>
 
             <motion.div className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium "
